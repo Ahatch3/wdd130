@@ -1,0 +1,9 @@
+body {
+        background-color: lightgoldenrodyellow;
+}
+
+.nav_link {
+        padding: 10px;
+        color: black;
+        font-size: 1.3em
+}
