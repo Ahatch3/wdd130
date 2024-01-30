@@ -1,9 +1,44 @@
+
 body {
-        background-color: lightgoldenrodyellow;
+        
 }
 
 .nav_link {
         padding: 10px;
         color: black;
         font-size: 1.3em
+}
+a {
+        color:black;
+}
+nav a{
+        text-decoration: none;
+}
+a:hover {
+        color: white;
+        background-color:goldenrod
+}
+nav{
+        display: flex;
+        justify-content: center;
+}
+main h1{
+        text-align: center;
+}
+img{
+        width: 300 px;
+        display: block;
+        margin: 0 auto;
+}
+#content{
+        max-width: 2000 px;
+        background-color: lightgoldenrodyellow;
+        
+}
+header, footer{
+        background-color: white;
+        padding: 20px;
+}
+p{
+        text-align: center;
 }
