@@ -26,9 +26,9 @@ main h1{
         text-align: center;
 }
 img{
-        width: 300 px;
         display: block;
         margin: 0 auto;
+        width: 20%
 }
 #content{
         max-width: 2000 px;
