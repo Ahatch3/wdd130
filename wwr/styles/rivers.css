@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ body{
     font-size: 22px;
     margin: 0;
     padding: 0;
+    font-family: "Caveat", "Roboto Slab", "Noto Sans";
 }
 nav {
     display: flex;
@@ -30,21 +34,46 @@ nav a:visited{
 p{
     font-family: "Roboto Slab", "Caveat";
 }
+header{
+    background-color:rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.icon{
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto
+}
+.home-title{
+    color: black;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.logo{
+    width: 100px;
+    margin: 10px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
 
 main section {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .salmon-river{
     grid-column: 1/2;
     grid-row: 1/2;
 }
 .salmon-picture{
     grid-column: 2/3;
-    max-width: 500px;
+    max-width: 700px;
     width: 100%;
     grid-row: 1/2;
+    border-radius: 10px;
+    margin: 10px;
 }
 .gray-river{
     grid-column: 2/3;
@@ -53,8 +82,10 @@ main section {
 .gray-picture{
     grid-column: 1/2;
     grid-row: 2/3;
-    max-width: 500px;
+    max-width: 700px;
     width: 100%;
+    border-radius: 10px;
+    margin: 10px;
 }
 .grand-canyon-river{
     grid-column: 1/2;
@@ -63,12 +94,22 @@ main section {
 .grand-canyon-picture{
     grid-column: 2/3;
     grid-row: 3/4;
-    max-width: 500px;
+    max-width: 700px;
     width: 100%;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 
-
+footer{
+    color: white;
+    background-color: rgba(20,30,13, .7);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 footer a{
     color: white;
     text-decoration: none;
