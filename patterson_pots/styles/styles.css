@@ -4,13 +4,90 @@
 nav {
     display: flex;
     justify-content: space-around;
+    background-color: #004d4c;
+    display: inline-flex;
+    width:100%;
 }
 nav a{
     text-align: center;
     font-family: "Caveat", "Roboto Slab", "Noto Sans";
-    font-size: 1.5em;
+    font-size: 2.25em;
     padding: 35px 35px 35px 35px;
 }
+nav a:hover{
+    background-color: #BC6C25;
+    color: #283618;
+    transition: .2s;
+    transform: scale(110%)
+}
+nav a:visited{
+    color: #fcfbfb;
+}
 header img{
+    width: 100%;
+    display: block;
+    background-color: #004d4c;
+    padding: 10px;
+}
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+}
 
+
+
+
+.intro{
+    font-family: "Caveat", "Roboto Slab", "Noto Sans";
+    font-size: 3em;
+}
+p{
+    font-family: "Roboto Slab", "Caveat";
+    font-size: 1.4em;
+}
+#content{
+    background-color: #FEFAE0;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+main img{
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px
+}
+main{
+    padding: 20px;
+}
+.contact_info{
+    border:3px #BC6C25;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color:#fcfbfb;
+    font-size: 1em;
+    width: 50%;
+    margin: 0 auto;
+    border-color: black;
+    border: 2px;
+
+}
+
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #004d4c;
+    color: #FEFAE0;
+}
+footer a{
+    color: #FEFAE0;
+    text-decoration: none;
+}
+footer a :visited{
+    color: #FEFAE0;
+    text-decoration: underline;
 }
