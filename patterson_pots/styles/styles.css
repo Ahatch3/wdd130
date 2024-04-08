@@ -27,11 +27,10 @@ header img{
     width: 100%;
     display: block;
     background-color: #004d4c;
-    padding: 10px;
 }
 header{
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 220px auto;
 }
 
 
@@ -69,21 +68,44 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
 }
+
+
 .author_img{
     grid-column: 2/3;
     grid-row: 1/2;
     margin: auto;
 }
+.author_label p{
+    font-size: 2em;
+    font-family: "Caveat", "Roboto Slab", "Noto Sans";
+}
+
+
 .pottery_wheel_img{
     grid-column: 3/4;
     grid-row: 2/3;
     margin: auto;
 }
+.pottery_wheel_label p{
+    font-size: 2em;
+    margin-top: 250px;
+    vertical-align: baseline;
+    font-family: "Caveat", "Roboto Slab", "Noto Sans";
+}
+
+
 .pots_img{
     grid-column: 1/2;
     grid-row: 2/3;
     margin:auto
 }
+.pots_label p{
+    font-size: 2em;
+    margin-top: 250px;
+    vertical-align: baseline;
+    font-family: "Caveat", "Roboto Slab", "Noto Sans";
+}
+
 
 .contact_info{
     border:3px #BC6C25;
@@ -106,7 +128,7 @@ main{
 
 /* Gallery Grid */
 
-.gallery_main img{
+.gallery_main div img{
     width: 35%;
     border-radius: 20px;
     margin-top: 100px;
